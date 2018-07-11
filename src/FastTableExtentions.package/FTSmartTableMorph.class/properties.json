@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "SantiagoBragagnolo 3/22/2017 16:50",
+	"super" : "FTTableMorph",
+	"category" : "FastTableExtentions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"selections"
+	],
+	"name" : "FTSmartTableMorph",
+	"type" : "normal"
+}

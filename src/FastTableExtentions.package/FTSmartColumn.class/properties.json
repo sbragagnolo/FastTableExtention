@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "SantiagoBragagnolo 3/22/2017 16:47",
+	"super" : "FTAbstractSmartColumn",
+	"category" : "FastTableExtentions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"accessor",
+		"display"
+	],
+	"name" : "FTSmartColumn",
+	"type" : "normal"
+}

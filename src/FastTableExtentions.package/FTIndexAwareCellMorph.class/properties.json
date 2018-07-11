@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "FTCellMorph",
+	"category" : "FastTableExtentions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"rowIndex",
+		"colIndex"
+	],
+	"name" : "FTIndexAwareCellMorph",
+	"type" : "normal"
+}

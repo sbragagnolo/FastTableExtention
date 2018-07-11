@@ -1,0 +1,3 @@
+*FastTableExtentions
+hasRow: anInteger 
+	^ true
