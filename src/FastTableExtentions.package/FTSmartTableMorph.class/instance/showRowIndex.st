@@ -1,5 +1,9 @@
 configuration
 showRowIndex
-	columns ifEmpty: [ columns := {(FTSmartIndexColumn id: '#')} ].
+	| indexColumn |
+	indexColumn := FTSmartIndexColumn id: '#'.
+	columns ifEmpty: [ columns := {indexColumn} ].
 	columns first isIndex
-		ifFalse: [ columns := {(FTSmartIndexColumn id: '#')} , columns ]
+		ifTrue: [ indexColumn := columns first ]
+		ifFalse: [ columns := {indexColumn} , columns ].
+	^ indexColumn

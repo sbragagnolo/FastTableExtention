@@ -1,8 +1,7 @@
 adding
-add: aColumnName accessing: anAccessorSymbol 
+add: aColumnName accessing: anAccessorSymbol
 	| col |
-	col := FTSmartColumn
-		id: aColumnName;
+	col := (FTSmartColumn id: aColumnName)
 		accessor: anAccessorSymbol;
 		yourself.
 	self addColumn: col.
