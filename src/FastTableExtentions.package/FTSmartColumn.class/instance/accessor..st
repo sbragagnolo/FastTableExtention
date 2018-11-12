@@ -1,4 +1,4 @@
 accessing
 accessor: aSymbol
-	self assert: aSymbol isUnary.
+	"self assert: aSymbol isUnary."
 	accessor := aSymbol

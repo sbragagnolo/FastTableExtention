@@ -1,3 +1,3 @@
 accessing
 hasRow: aRowIndex
-	^ self elements size > aRowIndex
+	^ aRowIndex > 0 and: [ self elements size >= aRowIndex ]
