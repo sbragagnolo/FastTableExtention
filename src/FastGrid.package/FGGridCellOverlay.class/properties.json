@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Morph",
+	"category" : "FastGrid",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cell"
+	],
+	"name" : "FGGridCellOverlay",
+	"type" : "normal"
+}

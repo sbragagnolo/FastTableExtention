@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Morph",
+	"category" : "FastGrid",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"container",
+		"verticalBar",
+		"horizontalBar",
+		"dataSource",
+		"verticalBarPosition",
+		"horizontalBarPosition"
+	],
+	"name" : "FGGridMorph",
+	"type" : "normal"
+}
